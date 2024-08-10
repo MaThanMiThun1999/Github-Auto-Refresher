@@ -2,7 +2,7 @@ name: Run GitHub Auto Refresh
 
 on:
   schedule:
-    - cron: '* * * * *'
+    - cron: '*/1 * * * *'
   workflow_dispatch:
 
 jobs:
